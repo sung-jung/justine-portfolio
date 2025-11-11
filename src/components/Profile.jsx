@@ -8,7 +8,7 @@ const Profile = () => {
             <div className="profile-content">
                 <div className="profile-text">
                     <h1>Hi, I'm Justine Lusung</h1>
-                    <h2>Computer Science Student & Aspiring System Administrator</h2>
+                    <h2>Computer Science Student</h2>
                     <p>
                         I’m passionate about exploring IoT, cloud computing, and cybersecurity
                         to build secure and efficient systems that make technology more accessible

@@ -10,12 +10,6 @@ const Projects = () => {
                 "Developed SafeHouse, an IoT-based home security system using FaceNet facial recognition and City Block Distance for accurate identification. Integrated real-time alerts, activity logging, and hybrid local–cloud storage for continuous monitoring and user accessibility.",
         },
         {
-            title: "Apartment Billing System",
-            role: "Developer",
-            description:
-                "Built a React Native mobile app for managing apartment bills and records. Integrated Supabase for cloud data storage and deployed via Vercel to host both the web and mobile interface, ensuring real-time synchronization and accessibility.",
-        },
-        {
             title: "Skills-Based Badge Exam System",
             role: "Front-End Developer",
             description:
