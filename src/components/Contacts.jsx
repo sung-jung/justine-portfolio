@@ -57,7 +57,7 @@ const Contact = () => {
             </form>
 
             <div className="contact-links">
-                <a href="https://drive.google.com/file/d/1_me04CGnEwHC_6QKxgt74RE4-HH6Rgal/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1k7r4OTR3bzwzHeFHpzf94Lu4fEnmpzW7/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <FaFileAlt /> View Resume
                 </a>
                 <a href="mailto:mendoza262003@gmail.com" target="_blank" rel="noopener noreferrer">
