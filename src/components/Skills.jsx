@@ -12,11 +12,11 @@ const Skills = () => {
                     <ul>
                         <li>System Installation & Configuration</li>
                         <li>Network Setup and Troubleshooting</li>
-                        <li>IoT Integration</li>
-                        <li>React.js & React Native Development</li>
-                        <li>Node.js & Express.js Backend Development</li>
+                        <li>IoT Device Integration</li>
+                        <li>React.js & React Native Development (Basic Proficiency)</li>
+                        <li>Python Backend Development</li>
                         <li>Cloud Deployment (Vercel, Supabase)</li>
-                        <li>Basic Cybersecurity Awareness</li>
+                        <li>Basic Cybersecurity Practices</li>
                         <li>Version Control (Git, GitHub)</li>
                     </ul>
                 </div>
@@ -29,9 +29,7 @@ const Skills = () => {
                         <li>Adaptability & Willingness to Learn</li>
                         <li>Time Management & Organization</li>
                         <li>Team Collaboration & Communication</li>
-                        <li>Initiative & Self-Motivation</li>
                         <li>Critical Thinking</li>
-                        <li>Project Coordination</li>
                     </ul>
                 </div>
             </div>
