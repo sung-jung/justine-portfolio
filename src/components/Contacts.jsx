@@ -57,7 +57,7 @@ const Contact = () => {
             </form>
 
             <div className="contact-links">
-                <a href="https://drive.google.com/file/d/1VNEgFJr_7LgLM_92qLd-wNqzfCHKFkG9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://justinelusung.jobs180.com/" target="_blank" rel="noopener noreferrer">
                     <FaFileAlt /> View Resume
                 </a>
                 <a href="mailto:mendoza262003@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -75,3 +75,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
