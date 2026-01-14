@@ -11,10 +11,10 @@ const Skills = () => {
                     <h3>💻 Technical Skills</h3>
                     <ul>
                         <li>System Installation & Configuration</li>
-                        <li>Network Setup and Troubleshooting</li>
+                        <li>Troubleshooting</li>
                         <li>IoT Device Integration</li>
-                        <li>React.js & React Native Development (Basic Proficiency)</li>
-                        <li>Python Backend Development</li>
+                        <li>React (Basic Proficiency)</li>
+                        <li>MySQL & Excel</li>
                         <li>Cloud Deployment (Vercel, Supabase)</li>
                         <li>Basic Cybersecurity Practices</li>
                         <li>Version Control (Git, GitHub)</li>
