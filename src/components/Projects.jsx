@@ -35,6 +35,12 @@ const Projects = () => {
             date: "Oct 29, 2024",
             issuer: "CISCO Networking Academy",
             link: "https://drive.google.com/file/d/1X8HVIanpRDgRVxWO9u4_ng3mX2KwHu8b/view?usp=drive_link"
+        },
+        {
+            title: "Professional Development Workshop",
+            date: "Jan 8, 2026",
+            issuer: "Career and Placement Office",
+            link: "https://drive.google.com/file/d/1HHHIHpE3sb1h9FXI88JY71pDBcLqarBZ/view?usp=sharing"
         }
     ]
 
