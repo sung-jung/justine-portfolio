@@ -41,6 +41,12 @@ const Projects = () => {
             date: "Jan 8, 2026",
             issuer: "Career and Placement Office",
             link: "https://drive.google.com/file/d/1HHHIHpE3sb1h9FXI88JY71pDBcLqarBZ/view?usp=sharing"
+        },
+        {
+            title: "Cisco Networking Academy Student Congress 2026",
+            date: "Jan 8, 2026",
+            issuer: "CISCO Networking Academy-Ph",
+            link: "https://drive.google.com/file/d/1Bz9buqcAgqlJ0XQuAZ3gADCV0Vy4EZNk/view?usp=drive_link"
         }
     ]
 

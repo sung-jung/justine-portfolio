@@ -1,0 +1,14 @@
+GIT COMMANDS FOR CREATING A NEW REPO AND PUSHING IT TO MAIN:
+**create first a repo on GitHub**
+- git init
+- git remote add origin "repo link"
+- git add . 
+- git commit -m "message"
+- git push -u origin "main or master"
+
+GIT COMMANDS FOR UPDATING A REPO AND PUSHING IT TO MAIN/MASTER:
+- git status
+- git add . 
+- git commit -m "message"
+- git push origin "main"
+
