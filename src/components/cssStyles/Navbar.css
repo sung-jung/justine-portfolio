@@ -1,3 +1,4 @@
+/* #NAVBAR SECTION CSS */
 .navbar {
     position: fixed;
     top: 0;
@@ -28,3 +29,4 @@
 .nav-list li a:hover {
     color: #ffd700;
 }
+/* #endregion */

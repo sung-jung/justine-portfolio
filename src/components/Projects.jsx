@@ -1,7 +1,9 @@
 import React from "react";
 import "../components/cssStyles/Projects.css";
 
+
 const Projects = () => {
+    
     const projectList = [
         {
             title: "SafeHouse",
@@ -16,7 +18,7 @@ const Projects = () => {
                 "Built a web-based platform using React.js and Node.js to track employee attendance and skill performance, featuring a dashboard for reports and user control.",
         },
     ];
-
+    
     const certifications = [
         {
             title: "CCNAv7: Introduction to Networks",

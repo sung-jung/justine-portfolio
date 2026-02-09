@@ -1,3 +1,4 @@
+/* #PROFILE SECTION CSS */
 .profile-section {
     padding: 80px;
     background: linear-gradient(to bottom right, #1e2a78, #243b55);
@@ -38,3 +39,4 @@
     object-fit: cover;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
+/* #endregion */

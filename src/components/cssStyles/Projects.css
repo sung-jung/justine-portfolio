@@ -1,4 +1,4 @@
-/* PROJECTS SECTION CSS */
+/* #PROJECTS SECTION CSS */
 .projects-section {
     background-color: #1b2a4b;
     color: white;
@@ -59,16 +59,17 @@
     line-height: 1.6;
     color: #e0e6f6;
 }
+/* #endregion */
 
-/* CERTIFICATIONS SECTION CSS */
+
+/* #CERTIFICATIONS SECTION CSS */
 .certifications-container {
-    display: flex;
+    display: flex;  
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
     width: 100%;
-
     margin: 30px;
 }
 
@@ -136,3 +137,4 @@
     color: #ffffff;
     letter-spacing: 1px;
 }
+/* #endregion */
