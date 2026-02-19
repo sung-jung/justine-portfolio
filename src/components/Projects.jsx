@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../components/cssStyles/Projects.css";
+import CCNAv7 from "../Assets/CCNAv7-Introduction to Networks.png";
+import stud_congress from "../Assets/Cisco Networking Academy Student Congress 2026.png";
+import Cyber_threat from "../Assets/Cyber-Threat-Management.png";
+import Cybersecurity from "../Assets/Cybersecurity Essential.png";
+import Presenting_data from "../Assets/Presenting Data.png";
+import PDW from "../Assets/Professional Development Workshop.png";
+
 
 
 const Projects = () => {
-    
+    const [selectedImage, setSelectedImage] = useState(null);
     const projectList = [
         {
             title: "SafeHouse",
@@ -18,38 +25,44 @@ const Projects = () => {
                 "Built a web-based platform using React.js and Node.js to track employee attendance and skill performance, featuring a dashboard for reports and user control.",
         },
     ];
-    
+
     const certifications = [
         {
             title: "CCNAv7: Introduction to Networks",
             date: "Oct 2, 2024",
             issuer: "CISCO Networking Academy",
-            link: "https://drive.google.com/file/d/1xzsowDdfh7rMzYt2QJ3Fp6gGkbpCmf-_/view?usp=drive_link"
+            image: CCNAv7
         },
         {
             title: "Cybersecurity Essentials ",
             date: "Oct 2, 2024",
             issuer: "CISCO Networking Academy",
-            link: "https://drive.google.com/file/d/1Z_kA6Eo6hh0pCa_h7oLJGT9CMdo2u7E-/view?usp=drive_link"
+            image: Cybersecurity
         },
         {
             title: "Cyber Threat Management Course",
             date: "Oct 29, 2024",
             issuer: "CISCO Networking Academy",
-            link: "https://drive.google.com/file/d/1X8HVIanpRDgRVxWO9u4_ng3mX2KwHu8b/view?usp=drive_link"
+            image: Cyber_threat
         },
         {
             title: "Professional Development Workshop",
             date: "Jan 8, 2026",
             issuer: "Career and Placement Office",
-            link: "https://drive.google.com/file/d/1HHHIHpE3sb1h9FXI88JY71pDBcLqarBZ/view?usp=sharing"
+            image: PDW
         },
         {
             title: "Cisco Networking Academy Student Congress 2026",
             date: "Jan 8, 2026",
             issuer: "CISCO Networking Academy-Ph",
-            link: "https://drive.google.com/file/d/1Bz9buqcAgqlJ0XQuAZ3gADCV0Vy4EZNk/view?usp=drive_link"
-        }
+            image: stud_congress
+        },
+        {
+            title: "Online Course: Presenting Data",
+            date: "Feb 19, 2026",
+            issuer: "HP Life",
+            image: Presenting_data
+        },
     ]
 
     return (
@@ -69,16 +82,26 @@ const Projects = () => {
             <h3 className="sub-title">Certifications</h3>
             <div className="certifications-container">
                 {certifications.map((cert, index) => (
-                    <div className="cert-card" key={index}>
-                        <a href={cert.link} target="_blank" rel="noopener noreferrer">
-                            <h4>{cert.title}</h4>
-                            <p>{cert.issuer} | {cert.date}</p>
-                        </a>
-
+                    <div
+                        className="cert-card"
+                        key={index}
+                        onClick={() => setSelectedImage(cert.image)}
+                        style={{ cursor: "pointer" }}
+                    >
+                        <h4>{cert.title}</h4>
+                        <p>{cert.issuer} | {cert.date}</p>
                     </div>
                 ))}
             </div>
-
+            {/* MODAL FOR VIEWING THE IMAGE */}
+            {selectedImage && (
+                <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <img src={selectedImage} alt="Certification" />
+                        <button className="close-btn" onClick={() => setSelectedImage(null)}>✖</button>
+                    </div>
+                </div>
+            )}
         </section>
     );
 };

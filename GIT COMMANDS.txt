@@ -17,3 +17,6 @@ COMMANDS FOR COMMIT STANDBY, WHILE PULLING THE LATEST CODE
 - git pull origin main
 - git stash pop
 
+PULLS THE LATEST CHANGES AND REAPPLIES YOUR COMMITS ON TOP OF THEM
+-git pull origin main --rebase
+

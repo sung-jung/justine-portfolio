@@ -2,6 +2,7 @@ import React from "react";
 import "./cssStyles/Profile.css";
 import profileImage from "../Assets/profile-image.png";
 
+
 const Profile = () => {
     return (
         <section className="profile-section">
