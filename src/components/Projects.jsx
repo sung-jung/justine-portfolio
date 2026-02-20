@@ -6,6 +6,7 @@ import Cyber_threat from "../Assets/Cyber-Threat-Management.png";
 import Cybersecurity from "../Assets/Cybersecurity Essential.png";
 import Presenting_data from "../Assets/Presenting Data.png";
 import PDW from "../Assets/Professional Development Workshop.png";
+import PNCG from "../Assets/Professional Networking for Career Growth.png";
 
 
 
@@ -58,11 +59,17 @@ const Projects = () => {
             image: stud_congress
         },
         {
-            title: "Online Course: Presenting Data",
+            title: "Presenting Data",
             date: "Feb 19, 2026",
             issuer: "HP Life",
             image: Presenting_data
         },
+        {
+            title: "Professional Networking for Career Growth",
+            date: "Feb 20, 2026",
+            issuer: "HP Life",
+            image: PNCG
+        }
     ]
 
     return (
