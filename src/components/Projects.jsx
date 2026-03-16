@@ -69,6 +69,12 @@ const Projects = () => {
             date: "Feb 20, 2026",
             issuer: "HP Life",
             image: PNCG
+        },
+        {
+            title: "Relational Database",
+            date: "Mar 13, 2026",
+            issuer: "freeCodeCamp",
+            image: PNCG
         }
     ]
 
