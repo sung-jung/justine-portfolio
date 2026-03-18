@@ -7,7 +7,7 @@ import Cybersecurity from "../Assets/Cybersecurity Essential.png";
 import Presenting_data from "../Assets/Presenting Data.png";
 import PDW from "../Assets/Professional Development Workshop.png";
 import PNCG from "../Assets/Professional Networking for Career Growth.png";
-import RBC from "../Assets/Relational Database.png;"
+import RBC from "../Assets/Relational Database.png"
 
 
 const Projects = () => {

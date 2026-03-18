@@ -14,7 +14,7 @@ const Skills = () => {
                         <li>Troubleshooting</li>
                         <li>IoT Device Integration</li>
                         <li>React (Basic Proficiency)</li>
-                        <li>MySQL & Excel</li>
+                        <li>MySQL/PostgreSQL & Excel</li>
                         <li>Cloud Deployment (Vercel, Supabase)</li>
                         <li>Basic Cybersecurity Practices</li>
                         <li>Version Control (Git, GitHub)</li>

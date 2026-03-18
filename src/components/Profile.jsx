@@ -11,9 +11,11 @@ const Profile = () => {
                     <h1>Hi, I'm Justine Lusung</h1>
                     <h2>Computer Science Student</h2>
                     <p>
-                        I’m passionate about exploring IoT, cloud computing, and cybersecurity
-                        to build secure and efficient systems that make technology more accessible
-                        and dependable.
+                        I am passionate about database administration, focusing on managing, securing,
+                        and optimizing data systems to ensure reliability and efficiency.
+                        I am interested in working with databases, cloud platforms,
+                        and data security practices to build robust, scalable, and well-structured systems
+                        that support accurate data management and organizational decision-making.
                     </p>
                 </div>
                 <div className="profile-image">
