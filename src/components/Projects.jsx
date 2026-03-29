@@ -8,6 +8,8 @@ import Presenting_data from "../Assets/Presenting Data.png";
 import PDW from "../Assets/Professional Development Workshop.png";
 import PNCG from "../Assets/Professional Networking for Career Growth.png";
 import RBC from "../Assets/Relational Database.png"
+import Git from "../Assets/Git Training certificate.png"
+import Amertron from "../Assets/OJT certificate.png"
 
 
 const Projects = () => {
@@ -75,6 +77,18 @@ const Projects = () => {
             date: "Mar 13, 2026",
             issuer: "freeCodeCamp",
             image: RBC
+        },
+        {
+            title: "Git Training",
+            date: "Mar 28, 2026",
+            issuer: "Simplilearn",
+            image: Git
+        },
+        {
+            title: "OJT Certificate",
+            date: "Mar 25, 2026",
+            issuer: "Amertron Incorporated",
+            image: Amertron
         }
     ]
 

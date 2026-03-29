@@ -1,7 +1,9 @@
 // src/components/Contact.jsx
 import React, { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 import "../components/cssStyles/Contacts.css";
+
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -16,8 +18,24 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert("Message sent! (You can connect this form to EmailJS later.)");
-        setFormData({ name: "", email: "", message: "" });
+        emailjs.send(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,     // from EmailJS
+            {
+                name: formData.name,
+                email: formData.email,
+                message: formData.message,
+            },
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY      // from EmailJS
+        )
+            .then(() => {
+                alert("Message sent successfully!");
+                setFormData({ name: "", email: "", message: "" });
+            })
+            .catch((error) => {
+                console.error("Email error:", error);
+                alert("Failed to send message.");
+            });
     };
 
     return (
