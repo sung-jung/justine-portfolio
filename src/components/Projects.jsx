@@ -20,13 +20,8 @@ const Projects = () => {
             role: "Project Manager",
             description:
                 "Developed SafeHouse, an IoT-based home security system using FaceNet facial recognition and City Block Distance for accurate identification. Integrated real-time alerts, activity logging, and hybrid local–cloud storage for continuous monitoring and user accessibility.",
-        },
-        {
-            title: "Skills-Based Badge Exam System",
-            role: "Front-End Developer",
-            description:
-                "Built a web-based platform using React.js and Node.js to track employee attendance and skill performance, featuring a dashboard for reports and user control.",
-        },
+        }
+
     ];
 
     const certifications = [

@@ -9,13 +9,12 @@ const Profile = () => {
             <div className="profile-content">
                 <div className="profile-text">
                     <h1>Hi, I'm Justine Lusung</h1>
-                    <h2>Computer Science Student</h2>
+                    <h2>Computer Science Graduate | Aspiring QA Analyst</h2>
                     <p>
-                        Recent Computer Science graduate with a strong interest in data management, cloud technologies,
-                        and secure system design. Passionate about building reliable, scalable, and efficient technology
-                        solutions that support organizational objectives. Eager to apply academic knowledge,
-                        technical skills, and continuous learning in a professional environment while contributing
-                        to meaningful projects and team success.
+                        Recent Computer Science graduate with a strong interest in software quality, testing, and secure system design.
+                        Experienced in manually testing and debugging full-stack systems, including web-based dashboards and backend services.
+                        Detail-oriented and methodical, with a growing focus on QA processes, bug tracking, and building reliable, well-tested software.
+                        Eager to apply this mindset professionally while continuing to grow technically.
                     </p>
                 </div>
                 <div className="profile-image">
