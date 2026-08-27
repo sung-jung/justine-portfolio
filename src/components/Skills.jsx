@@ -10,14 +10,14 @@ const Skills = () => {
                 <div className="skills-category">
                     <h3>💻 Technical Skills</h3>
                     <ul>
-                        <li>System Installation & Configuration</li>
-                        <li>Troubleshooting</li>
-                        <li>IoT Device Integration</li>
-                        <li>React (Basic Proficiency)</li>
-                        <li>MySQL/PostgreSQL & Excel</li>
-                        <li>Cloud Deployment (Vercel, Supabase)</li>
+                        <li>Windows OS Installation & Configuration</li>
+                        <li>Microsoft 365 & Microsoft Excel</li>
+                        <li>VBA Macros & Process Automation</li>
+                        <li>SQL & PostgreSQL Fundamentals</li>
+                        <li>Bash Scripting</li>
+                        <li>Basic Network Setup & Troubleshooting</li>
+                        <li>Git & GitHub</li>
                         <li>Basic Cybersecurity Practices</li>
-                        <li>Version Control (Git, GitHub)</li>
                     </ul>
                 </div>
 
@@ -29,7 +29,7 @@ const Skills = () => {
                         <li>Adaptability & Willingness to Learn</li>
                         <li>Time Management & Organization</li>
                         <li>Team Collaboration & Communication</li>
-                        <li>Critical Thinking</li>
+                        <li>Process Improvement & Documentation</li>
                     </ul>
                 </div>
             </div>
