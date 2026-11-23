@@ -1,6 +1,6 @@
 /* #SKILL SECTION CSS */
 .skills-section {
-    background: linear-gradient(135deg, #1d3876 0%, #182848 100%);
+    background: #10335e;
     color: #fff;
     padding: 50px 20px;
     text-align: center;
@@ -54,4 +54,5 @@
     font-size: 1rem;
     color: #e3e7ff;
 }
+
 /* #endregion */

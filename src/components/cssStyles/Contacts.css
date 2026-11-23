@@ -1,7 +1,7 @@
 /* #CONTACT SECTION CSS */
 
 .contact-section {
-    background: linear-gradient(180deg, #273f9d, #696fe6);
+    background: #273f9d;
     padding: 80px 20px;
     text-align: center;
 }
@@ -78,4 +78,5 @@
 .contact-links a:hover {
     color: #0056b3;
 }
+
 /* #endregion */

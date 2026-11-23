@@ -1,6 +1,6 @@
 import React from "react";
 import "./cssStyles/Profile.css";
-import profileImage from "../Assets/profile-image.png";
+import profileImage from "../Assets/barong.JPG";
 
 
 const Profile = () => {
@@ -11,10 +11,9 @@ const Profile = () => {
                     <h1>Hi, I'm Justine Lusung</h1>
                     <h2>Computer Science Graduate</h2>
                     <p>
-                        Recent Computer Science graduate with a strong interest in software quality, testing, and secure system design.
-                        Experienced in manually testing and debugging full-stack systems, including web-based dashboards and backend services.
-                        Detail-oriented and methodical, with a growing focus on QA processes, bug tracking, and building reliable, well-tested software.
-                        Eager to apply this mindset professionally while continuing to grow technically.
+                        Recent Computer Science graduate pursuing an IT support role. Skilled in Windows, Microsoft 365,
+                        networking fundamentals, and methodical troubleshooting, with a habit of documenting issues clearly.
+                        Eager to support users and keep learning new tools and processes.
                     </p>
                 </div>
                 <div className="profile-image">
